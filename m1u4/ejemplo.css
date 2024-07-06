@@ -1,0 +1,35 @@
+h1 {
+    color: red; /* esto es un comentario en css */
+    background-color: yellow; /* fondo */
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: green;
+    line-height: 25px;
+}
+
+.destacados {
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#caja {
+    background-color: pink;
+    width: 300px; /* ancho */
+    height: 400px; /* alto */
+    padding: 20px;
+    border: 5px dashed black;
+    box-sizing: border-box;
+    /* margin: 0 auto; /* ejes de las y - ejes de las x - auto genera centrar el elemento calcula automaticamente el espacio */
+    margin-top: 50px;
+    margin-left: 100px;
+}
