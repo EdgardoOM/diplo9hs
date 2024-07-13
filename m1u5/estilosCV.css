@@ -1,0 +1,73 @@
+body{
+    width: 600px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+#nombre{
+    background-color: azure;
+    color: coral;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 15px;
+}
+
+img{
+    width: 150px;
+    border: 16px solid chocolate;
+    border-radius: 50%;
+
+}
+
+.titulo{
+    color: blueviolet;
+    margin-left: 15px;
+}
+
+ul{
+    background-color: brown;
+    color: azure;
+    padding: 15px 50px;
+}
+
+ol{
+    background-color: azure;
+    color: brown;
+    padding: 15px 50px;
+}
+
+p{
+    line-height: 25px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    background-color: chocolate;
+    color: azure;
+    padding: 5px;
+}
+
+.sobreMi {
+    background: rgb(164,255,237);
+    background: linear-gradient(90deg, rgba(164,255,237,1) 0%, rgba(44,176,222,0.9780287114845938) 35%, rgba(205,229,231,1) 100%);
+    padding: 10px;
+}
+
+i {
+    font-size: 24px;
+    color: grey;
+}
+
+.contenedorColumnas {
+    padding: 20px;
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 1px solid #333;
+}
+
+.columnas {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
