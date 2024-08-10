@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://placehold.co/100x70" alt="Logo Nav">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Categoria 1</a></li>
+                                <li><a class="dropdown-item" href="#">Categoria 2</a></li>
+                                <li><a class="dropdown-item" href="#">Categoria 3<a><li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- <img src="https://placehold.co/635" alt="Foto1"> -->
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://placehold.co/635" class="d-block w-100" alt="foto1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Título Slide 1</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/635" class="d-block w-100" alt="foto2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título Slide 2</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/635" class="d-block w-100" alt="foto3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título Slide 3</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, quidem eum!</p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="contenedor-fluid bannerTexto">
+                    <h2>PRENDAS DE DISEÑO</h2>
+                    <h2>LO QUE QUERES LO ENCONTRAS</h2>
+                    <h2>EN NUESTRA TIENDA</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, nesciunt ad at, voluptatem similique voluptatum quas accusamus sequi, a quia veritatis quibusdam tempore? Voluptas sunt aliquid perferendis corporis esse error.</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="https://placehold.co/305x215" alt="Foto1">
+                    </div>
+                    <div class="col">
+                        <img src="https://placehold.co/305x215" alt="Foto1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container contenedorDescripcion">
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque impedit culpa mollitia nemo eius, earum recusandae minima iure animi voluptatem necessitatibus voluptatum itaque, harum facilis fuga exercitationem voluptas. Facere, voluptatum.
+        Fuga totam sunt velit veniam cupiditate. Odio, quasi, rerum incidunt enim illo alias quia explicabo debitis animi neque itaque modi nulla officiis quod a, nostrum eius nam molestiae obcaecati. Facere.</h2>
+    </div>
+    <div class="container">
+        <h2>LO MÁS BUSCADO</h2>
+        <button type="button" class="btn btn-outline-secondary btnEleccion">Todos</button>
+        <button type="button" class="btn btn-outline-secondary btnEleccion">+30% off</button>
+        <button type="button" class="btn btn-success btnEleccion">Recomendados</button>
+        <button type="button" class="btn btn-outline-secondary btnEleccion">Temporada 2024</button>
+        <button type="button" class="btn btn-outline-secondary btnEleccion">Lo que se viene</button>
+        <div class="row row-cols-1 row-cols-md-3 g-2 galeriaProductos">
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 4</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 5</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://placehold.co/200x250" class="card-img-top" alt="Foto 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto Nro 6</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem qui animi aperiam tempora dolorum esse hic possimus nihil non, ut porro dolor fugiat corporis necessitatibus!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 textoSegundoBanner">
+                    <p class="textoGrandeBanner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatem ab hic!</p>
+                    <hr>
+                    <p class="descripcionSegundoBanner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda aspernatur, ut molestias eveniet eum accusantium dolor. Illo quas voluptatem fugit tenetur eum atque, ea eius magni! Incidunt, sapiente voluptate.
+                    Ratione voluptate eligendi, et ex nulla voluptatum reprehenderit placeat officia optio perferendis ut doloremque dolorum, nisi accusamus asperiores non hic facilis omnis laboriosam, repellendus veritatis laborum odit? Adipisci, voluptas laudantium?</p>
+                </div>
+                <div class="col-4 imagenSegundoBanner">
+                    <img src="https://placehold.co/100x150" class="card-img-top fotoSegundoBanner" alt="Foto Segundo Baneer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container footer">
+        <div class="d-flex">
+            <div class="p-2 flex-fill">
+                <div class="container">
+                    <img src="https://placehold.co/150x100" alt="Logo Footer">
+                </div>
+            </div>
+            <div class="p-2 flex-fill">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-2 flex-fill">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-2 flex-fill">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="p-2 flex-fill">
+                <div class="container">
+                    <img src="https://placehold.co/400x200" alt="Foto Footer">
+                </div>
+            </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
