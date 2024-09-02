@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 900px;
+    height: 600px;
+    padding: 20px;
+    background-color: #cccaca;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#textArea {
+    width: 90%;
+    height: 80%;
+    resize: none;
+    padding: 10px;
+}

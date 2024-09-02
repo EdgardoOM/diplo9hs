@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 950px;
+    height: 350px;
+    background-color: #f5d134;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cuadradoUno,
+.cuadradoDos,
+.cuadradoTres {
+    width: 200px;
+    height: 200px;
+    transition: transform .4s ease, box-shadow .4s ease;
+}
+
+.cuadradoUno:hover,
+.cuadradoDos:hover,
+.cuadradoTres:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .4);
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
